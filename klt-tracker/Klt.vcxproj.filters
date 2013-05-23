@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a3309e95-45ec-4613-9b6b-893b6716a6f2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5b25aa30-34ab-4ab2-917b-e5e2e33d4a06}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b95b62db-f825-4726-9a65-3dc14b238c5d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="convolve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="klt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="klt_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pnmio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selectGoodFeatures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="storeFeatures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trackFeatures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="writeFeatures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="klt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="klt_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KltExamples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pnmio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
