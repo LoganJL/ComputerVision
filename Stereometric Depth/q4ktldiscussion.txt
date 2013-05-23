@@ -1,0 +1,4 @@
+The KTL tracker extracted 100 features from frc1 and frc2 which is plotted on the submitted images.
+These points were then read into matlab and a Fundamental matrix was estimated using estimateF from the earlier part of F.
+As you can see in the sumbitted KtlEpipolarlines image, the F and subsequently the generated epipolar lines are better than randomly selecting corresponding points.
+This is because features are stronger cues and provide less noisy data and more meaningful correspondences when attempting to generate the Fundamental matrix F.
